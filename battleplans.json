@@ -15,48 +15,48 @@
       "defender": { "topLeft": [0, 22], "bottomRight": [60, 44] }
     },
     "deployment": {
-      "attacker": { "topLeft": [0, 0], "bottomRight": [60, 13] },
-      "defender": { "topLeft": [0, 31], "bottomRight": [60, 44] }
+      "attacker": "9 inches from opponent territory and within attacker territory.",
+      "defender": "9 inches from opponent territory and within defender territory."
     },
     "terrain": [
       {
         "type": "Medium Area/Obstacle",
-        "topLeft": [10.75, 5.5],
+        "topLeft": [15, 11],
         "size": [8.5, 5]
       },
       {
         "type": "Medium Area/Obstacle",
-        "topLeft": [40.75, 38.5],
+        "topLeft": [45, 33],
         "size": [8.5, 5]
       },
       {
         "type": "Medium Obscuring",
-        "topLeft": [38.75, 5.5],
+        "topLeft": [35, 11],
         "size": [8.5, 5]
       },
       {
         "type": "Medium Obscuring",
-        "topLeft": [10.75, 33.5],
+        "topLeft": [22, 33],
         "size": [8.5, 5]
       },
       {
         "type": "Small Area/Obstacle",
-        "topLeft": [26.75, 21.75],
+        "topLeft": [28, 20],
         "size": [4.5, 4.5]
       },
       {
         "type": "Small Area/Obstacle",
-        "topLeft": [26.75, 36.25],
+        "topLeft": [32, 24],
         "size": [4.5, 4.5]
       },
       {
         "type": "Place of Power",
-        "topLeft": [19.75, 53.5],
+        "topLeft": [7, 22],
         "size": [4.5, 4.5]
       },
       {
         "type": "Place of Power",
-        "topLeft": [19.75, 6.5],
+        "topLeft": [53, 22],
         "size": [4.5, 4.5]
       }
     ]
