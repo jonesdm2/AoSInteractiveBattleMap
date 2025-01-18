@@ -53,5 +53,67 @@
     "scoring": "Victory points are scored by controlling objectives at the end of each round.",
     "twist": "At the start of each round, all units gain +1 movement.",
     "underdogRules": "If the player with fewer points ends the round controlling more objectives, they gain an extra victory point."
+  },
+  "Border War": {
+    "name": "Border War",
+    "objectives": [
+      { "name": "Defender Home", "center": [30, 33] },
+      { "name": "Attacker Home", "center": [30, 11] },
+      { "name": "Border Left", "center": [15, 22] },
+      { "name": "Border Right", "center": [45, 22] }
+    ],
+    "scoring": "Control Your Home Objective (1 VP), Control Border Objective (2 VP Each), Control Opponent Home Objective (5 VP).",
+    "twist": "Maximum of 6 Victory Points scored each turn from controlling objectives.",
+    "underdogRules": "+1 Hit for friendly units that have charged and are contesting an objective wholly within enemy territory.",
+    "territory": {
+      "attacker": { "topLeft": [0, 0], "bottomRight": [44, 30] },
+      "defender": { "topLeft": [0, 30], "bottomRight": [44, 60] }
+    },
+    "deployment": {
+      "attacker": { "topLeft": [0, 0], "bottomRight": [35, 30] },
+      "defender": { "topLeft": [9, 30], "bottomRight": [44, 60] }
+    },
+    "terrain": [
+      {
+        "type": "Medium Area/Obstacle",
+        "topLeft": [10.75, 5.5],
+        "size": [8.5, 5]
+      },
+      {
+        "type": "Medium Area/Obstacle",
+        "topLeft": [40.75, 38.5],
+        "size": [8.5, 5]
+      },
+      {
+        "type": "Medium Obscuring",
+        "topLeft": [38.75, 5.5],
+        "size": [8.5, 5]
+      },
+      {
+        "type": "Medium Obscuring",
+        "topLeft": [10.75, 33.5],
+        "size": [8.5, 5]
+      },
+      {
+        "type": "Small Area/Obstacle",
+        "topLeft": [26.75, 21.75],
+        "size": [4.5, 4.5]
+      },
+      {
+        "type": "Small Area/Obstacle",
+        "topLeft": [26.75, 36.25],
+        "size": [4.5, 4.5]
+      },
+      {
+        "type": "Place of Power",
+        "topLeft": [19.75, 53.5],
+        "size": [4.5, 4.5]
+      },
+      {
+        "type": "Place of Power",
+        "topLeft": [19.75, 6.5],
+        "size": [4.5, 4.5]
+      }
+    ]
   }
 }
