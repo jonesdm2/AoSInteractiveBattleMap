@@ -11,12 +11,12 @@
     "twist": "Maximum of 6 Victory Points scored each turn from controlling objectives.",
     "underdogRules": "+1 Hit for friendly units that have charged and are contesting an objective wholly within enemy territory.",
     "territory": {
-      "attacker": { "topLeft": [0, 0], "bottomRight": [22, 60] },
-      "defender": { "topLeft": [22, 0], "bottomRight": [44, 60] }
+      "defender": { "topLeft": [22, 0], "bottomRight": [44, 60] },
+      "attacker": { "topLeft": [0, 0], "bottomRight": [22, 60] }
     },
     "deployment": {
-      "attacker": "9 inches from opponent territory and within attacker territory.",
-      "defender": "9 inches from opponent territory and within defender territory."
+      "defender": { "topLeft": [22, 0], "bottomRight": [33, 60] },
+      "attacker": {"topLeft": [0, 0], "bottomRight": [15, 60] }
     },
     "terrain": [
       {
