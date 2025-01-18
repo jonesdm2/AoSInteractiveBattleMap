@@ -1,0 +1,57 @@
+{
+  "example_battleplan": {
+    "territory": {
+      "attacker": {
+        "topLeft": [0, 0],
+        "bottomRight": [22, 60]
+      },
+      "defender": {
+        "topLeft": [22, 0],
+        "bottomRight": [44, 60]
+      }
+    },
+    "deployment": {
+      "attacker": {
+        "topLeft": [0, 0],
+        "bottomRight": [13, 60]
+      },
+      "defender": {
+        "topLeft": [31, 0],
+        "bottomRight": [44, 60]
+      }
+    },
+    "objectives": [
+      {
+        "name": "Attacker Home Objective",
+        "center": [11, 30]
+      },
+      {
+        "name": "Defender Home Objective",
+        "center": [33, 30]
+      },
+      {
+        "name": "Left Border Objective",
+        "center": [22, 15]
+      },
+      {
+        "name": "Right Border Objective",
+        "center": [22, 45]
+      }
+    ],
+    "terrain": [
+      {
+        "type": "Medium Obscuring",
+        "topLeft": [5, 10],
+        "size": [8.5, 5]
+      },
+      {
+        "type": "Small Area",
+        "topLeft": [20, 15],
+        "size": [4.5, 4.5]
+      }
+    ],
+    "scoring": "Victory points are scored by controlling objectives at the end of each round.",
+    "twist": "At the start of each round, all units gain +1 movement.",
+    "underdogRules": "If the player with fewer points ends the round controlling more objectives, they gain an extra victory point."
+  }
+}
