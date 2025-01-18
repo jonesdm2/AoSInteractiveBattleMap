@@ -2,17 +2,17 @@
   "Border War": {
     "name": "Border War",
     "objectives": [
-      { "name": "Defender Home", "center": [30, 33] },
-      { "name": "Attacker Home", "center": [30, 11] },
-      { "name": "Border Left", "center": [15, 22] },
-      { "name": "Border Right", "center": [45, 22] }
+      { "name": "Defender Home", "center": [33, 30] },
+      { "name": "Attacker Home", "center": [11, 30] },
+      { "name": "Border Left", "center": [22, 15] },
+      { "name": "Border Right", "center": [22, 45] }
     ],
     "scoring": "Control Your Home Objective (1 VP), Control Border Objective (2 VP Each), Control Opponent Home Objective (5 VP).",
     "twist": "Maximum of 6 Victory Points scored each turn from controlling objectives.",
     "underdogRules": "+1 Hit for friendly units that have charged and are contesting an objective wholly within enemy territory.",
     "territory": {
-      "attacker": { "topLeft": [0, 0], "bottomRight": [60, 22] },
-      "defender": { "topLeft": [0, 22], "bottomRight": [60, 44] }
+      "attacker": { "topLeft": [0, 0], "bottomRight": [22, 60] },
+      "defender": { "topLeft": [22, 0], "bottomRight": [44, 60] }
     },
     "deployment": {
       "attacker": "9 inches from opponent territory and within attacker territory.",
@@ -21,42 +21,42 @@
     "terrain": [
       {
         "type": "Medium Area/Obstacle",
-        "topLeft": [15, 11],
-        "size": [8.5, 5]
+        "topLeft": [11, 15],
+        "size": [5, 8.5]
       },
       {
         "type": "Medium Area/Obstacle",
-        "topLeft": [45, 33],
-        "size": [8.5, 5]
+        "topLeft": [33, 45],
+        "size": [5, 8.5]
       },
       {
         "type": "Medium Obscuring",
-        "topLeft": [35, 11],
-        "size": [8.5, 5]
+        "topLeft": [11, 35],
+        "size": [5, 8.5]
       },
       {
         "type": "Medium Obscuring",
-        "topLeft": [22, 33],
-        "size": [8.5, 5]
+        "topLeft": [33, 22],
+        "size": [5, 8.5]
       },
       {
         "type": "Small Area/Obstacle",
-        "topLeft": [28, 20],
+        "topLeft": [20, 28],
         "size": [4.5, 4.5]
       },
       {
         "type": "Small Area/Obstacle",
-        "topLeft": [32, 24],
+        "topLeft": [24, 32],
         "size": [4.5, 4.5]
       },
       {
         "type": "Place of Power",
-        "topLeft": [7, 22],
+        "topLeft": [22, 7],
         "size": [4.5, 4.5]
       },
       {
         "type": "Place of Power",
-        "topLeft": [53, 22],
+        "topLeft": [22, 53],
         "size": [4.5, 4.5]
       }
     ]
